@@ -181,4 +181,5 @@ finally {
       ErrorAction = "Stop"
    }
    $null = Disconnect-ExchangeOnline @deleteExchangeSessionSplatParams
+   Write-Information "Disconnected from Microsoft Exchange Online"
 }

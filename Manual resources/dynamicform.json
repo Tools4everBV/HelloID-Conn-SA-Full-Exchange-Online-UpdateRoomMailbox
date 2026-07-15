@@ -20,7 +20,7 @@
                            "key":  "searchMailbox",
                            "templateOptions":  {
                                                    "label":  "Search (wildcard search in Name and Email addresses)",
-                                                   "placeholder":  "Name or Email addresses (use * to search all shared mailboxes)",
+                                                   "placeholder":  "Name or Email addresses (use * to search all room mailboxes)",
                                                    "required":  true
                                                },
                            "type":  "input",
@@ -99,7 +99,7 @@
                                                    "label":  "Display name",
                                                    "placeholder":  "IT department",
                                                    "required":  true,
-                                                   "pattern":  "^[A-Za-z0-9??-ÿ .,_\u0027-]{1,256}$",
+                                                   "pattern":  "^[A-Za-z0-9??-ï¿½ .,_\u0027-]{1,256}$",
                                                    "minLength":  1,
                                                    "maxLength":  256,
                                                    "useDependOn":  true,
